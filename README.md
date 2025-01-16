@@ -22,6 +22,7 @@ This project utilizes the following fields for question-and-answer management:
 
 Explore relevant datasets to support NVIDIA-related Q&A research:  
 
+- [tatsu-lab alpaca Dataset](https://huggingface.co/datasets/tatsu-lab/alpaca)
 - [Rajpurkar's SQuAD Dataset](https://huggingface.co/datasets/rajpurkar/squad)  
 - [AllenAI's SWAG Dataset](https://huggingface.co/datasets/allenai/swag)  
 - [NVIDIA-QA by ajsbsd](https://huggingface.co/datasets/ajsbsd/nvidia-qa)  
@@ -43,10 +44,13 @@ Check out examples to implement your own NVIDIA-related Q&A systems:
 
 Dive into key research papers for inspiration:  
 
-- [Pretrained Language Models for QA](https://arxiv.org/pdf/1910.13461)  
-- [Rethinking QA Pipelines](https://arxiv.org/pdf/1907.09190)  
-- [Unified QA Framework](https://arxiv.org/pdf/2002.08910)  
-- [Comprehensive QA Architectures](https://arxiv.org/pdf/2212.09689)  
+- [BART: Denoising Sequence-to-Sequence Pre-training for Natural
+Language Generation, Translation, and Comprehension](https://arxiv.org/pdf/1910.13461)  
+- [ELI5: Long Form Question Answering](https://arxiv.org/pdf/1907.09190)  
+- [How Much Knowledge Can You Pack
+Into the Parameters of a Language Model?](https://arxiv.org/pdf/2002.08910)  
+- [Unnatural Instructions:
+Tuning Language Models with (Almost) No Human Labor](https://arxiv.org/pdf/2212.09689)  
 
 ---
 
