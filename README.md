@@ -5,11 +5,11 @@
 # ✅TODOs
 | No | Task                                         | Status |
 |----|----------------------------------------------|--------|
-| 01 | Create qa dataset                            | 🛠️     |
-| 02 | Create mcqa dataset                          | ❌     |
-| 03 | Fine-tune model + evaluation                 | ❌     |
-| 04 | Deploy model                                 | ❌     |
-| 05 | Generate synthetic data                      | ❌     |
+| 01 | Create `qa` dataset                          | 🛠️     |
+| 02 | Fine-tune model + evaluation                 | ❌     |
+| 03 | Deploy model                                 | ❌     |
+| 04 | Generate synthetic context                   | ❌     |
+| 05 | Create `mcqa` dataset                        | ❌     |
 
 ---
 
