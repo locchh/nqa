@@ -2,19 +2,14 @@
 
 **NVIDIA-Related Question and Answer Platform**  
 
----
-
-## 📊 Data  
-
-This project utilizes the following fields for question-and-answer management:  
-
-1. **Question**  
-2. **Answer**  
-3. **Option1**  
-4. **Option2**  
-5. **Option3**  
-6. **Context**  
-7. **Tags**  
+# ✅TODOs
+| No | Task                                         | Status |
+|----|----------------------------------------------|--------|
+| 01 | Create qa dataset                            | 🛠️     |
+| 02 | Create mcqa dataset                          | ❌     |
+| 03 | Fine-tune model + evaluation                 | ❌     |
+| 04 | Deploy model                                 | ❌     |
+| 05 | Generate synthetic data                      | ❌     |
 
 ---
 
