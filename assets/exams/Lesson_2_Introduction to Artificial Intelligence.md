@@ -1,11 +1,15 @@
 # Introduction to Artificial Intelligence
 
+---
+
 **1. What is the main focus of the Introduction to Artificial Intelligence unit?**  
    - A) Understanding the basics of AI and its applications across industries  
    - B) Learning programming languages for AI  
    - C) Building a physical AI robot  
    - D) Studying the limitations of AI  
    **Answer:** A) Understanding the basics of AI and its applications across industries
+
+---
 
 **2. Name some typical steps involved in an AI workflow.**  
    - A) Model training, data preparation, inference, optimization  
@@ -14,12 +18,16 @@
    - D) Writing documentation  
    **Answer:** A) Model training, data preparation, inference, optimization
 
+---
+
 **3. What can you describe at a high level by the end of the AI unit?**  
    - A) Specific AI coding techniques  
    - B) General AI principles and its evolution over time  
    - C) How to play chess  
    - D) AI hardware requirements only  
    **Answer:** B) General AI principles and its evolution over time
+
+---
 
 **4. How has artificial intelligence evolved since the 1950s?**  
    - A) It hasn’t changed at all  
@@ -28,12 +36,16 @@
    - D) It has decreased in popularity  
    **Answer:** B) It has moved from rule-based systems to machine learning and deep learning
 
+---
+
 **5. What early games used AI, and what were their limitations?**  
    - A) Tic-tac-toe and chess; they used simple rules rather than learning from data  
    - B) Only card games; they were too complex  
    - C) Racing games; AI was highly advanced  
    - D) None; AI wasn’t used in games  
    **Answer:** A) Tic-tac-toe and chess; they used simple rules rather than learning from data
+
+---
 
 **6. How did machine learning (ML) emerge in the 1980s, and how does it differ from early AI?**  
    - A) ML allowed computers to learn from data, unlike rule-based early AI  
@@ -42,12 +54,16 @@
    - D) ML was not applicable to real-world problems  
    **Answer:** A) ML allowed computers to learn from data, unlike rule-based early AI
 
+---
+
 **7. What problem did email spam present in the late 1980s, and how was it addressed using ML?**  
    - A) It led to faster email speeds  
    - B) It was addressed by training ML models to identify spam patterns  
    - C) It increased email quality  
    - D) It had no impact  
    **Answer:** B) It was addressed by training ML models to identify spam patterns
+
+---
 
 **8. What challenges arose with the generation of big data from smartphones and social media?**  
    - A) Lack of data  
@@ -56,12 +72,16 @@
    - D) Limited data storage  
    **Answer:** B) Processing and analyzing large data volumes became complex
 
+---
+
 **9. What breakthroughs occurred with deep learning (DL) around 2010?**  
    - A) DL models achieved unprecedented accuracy in image and speech recognition  
    - B) DL stopped progressing  
    - C) DL was only used for text data  
    - D) DL focused on hardware limitations  
    **Answer:** A) DL models achieved unprecedented accuracy in image and speech recognition
+
+---
 
 **10. Why are large datasets important for training deep neural networks (DNNs)?**  
    - A) They ensure the model memorizes data rather than generalizes  
@@ -70,12 +90,16 @@
    - D) They decrease model accuracy  
    **Answer:** B) They improve model accuracy and robustness
 
+---
+
 **11. How have advances in hardware and training algorithms impacted AI progress?**  
    - A) By making AI less efficient  
    - B) By enabling faster and more accurate AI model training  
    - C) By reducing computing needs  
    - D) By having no impact on AI progress  
    **Answer:** B) By enabling faster and more accurate AI model training
+
+---
 
 **12. What is Generative AI, and how is it changing industries today?**  
    - A) A technology to play video games  
@@ -84,12 +108,16 @@
    - D) Only for creating computer code  
    **Answer:** B) AI that generates content like text, images, and simulations for various applications
 
+---
+
 **13. Name some applications of Generative AI that affect daily life.**  
    - A) Text generation, image synthesis, and personalized recommendations  
    - B) Playing music only  
    - C) Data deletion  
    - D) None, it has no daily applications  
    **Answer:** A) Text generation, image synthesis, and personalized recommendations
+
+---
 
 **14. How do AI workflows help ensure that AI projects are systematic and effective?**  
    - A) They create random outcomes  
@@ -98,12 +126,16 @@
    - D) They remove model accuracy requirements  
    **Answer:** B) They provide a structured process to achieve reliable results
 
+---
+
 **15. What are the four fundamental steps of a typical AI workflow?**  
    - A) Data preparation, model training, model optimization, inference  
    - B) Debugging, testing, compiling, analyzing  
    - C) Software setup, design, coding, testing  
    - D) Only model optimization  
    **Answer:** A) Data preparation, model training, model optimization, inference
+
+---
 
 **16. What does the data preparation step involve in an AI workflow?**  
    - A) Ignoring all data  
@@ -112,12 +144,16 @@
    - D) Copying data without changes  
    **Answer:** B) Cleaning and organizing data for model training
 
+---
+
 **17. How does dataset size affect AI model training?**  
    - A) Smaller datasets make the model more accurate  
    - B) Larger datasets improve model performance and accuracy  
    - C) Dataset size has no effect  
    - D) Only small datasets are usable  
    **Answer:** B) Larger datasets improve model performance and accuracy
+
+---
 
 **18. Why is model training considered the most compute-intensive phase of the AI workflow?**  
    - A) It doesn’t use any computing power  
@@ -126,12 +162,16 @@
    - D) It only uses storage space  
    **Answer:** B) It requires significant resources to process data and optimize model weights
 
+---
+
 **19. What does model optimization involve, and why is it important?**  
    - A) Reducing model accuracy  
    - B) Refining the model to improve performance and reduce computation costs  
    - C) Ignoring errors  
    - D) Only saving model data  
    **Answer:** B) Refining the model to improve performance and reduce computation costs
+
+---
 
 **20. What happens in the inference step of an AI workflow?**  
    - A) The model makes predictions based on new data  
@@ -140,12 +180,16 @@
    - D) No predictions are made  
    **Answer:** A) The model makes predictions based on new data
 
+---
+
 **21. What role does Nvidia play in AI solutions, particularly with tools like Rapids and TensorRT?**  
    - A) Providing hardware for music production  
    - B) Offering platforms for accelerated computing and optimizing AI workflows  
    - C) Only focusing on video games  
    - D) Storing random data  
    **Answer:** B) Offering platforms for accelerated computing and optimizing AI workflows
+
+---
 
 **22. How is Nvidia Triton used in AI inference deployment?**  
    - A) For data storage only  
@@ -154,12 +198,16 @@
    - D) By replacing all AI models  
    **Answer:** B) As an inference server that simplifies deployment across platforms
 
+---
+
 **23. What did Geoffrey Hinton mean by comparing deep learning to human brain processes?**  
    - A) DL doesn’t need training data  
    - B) DL algorithms learn patterns in data similarly to how the brain learns  
    - C) DL ignores patterns  
    - D) DL is not useful for real-world tasks  
    **Answer:** B) DL algorithms learn patterns in data similarly to how the brain learns
+
+---
 
 **24. How are artificial neurons inspired by biological neurons?**  
    - A) They ignore incoming signals  
