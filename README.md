@@ -1,74 +1,88 @@
-# 🧠 NQA: NVIDIA-Related Question and Answer Project
+# NQA: NVIDIA-Related Question and Answer Project 🧠
 
-A comprehensive platform for creating and managing question-and-answer datasets and models related to NVIDIA technologies.  
-
----
-
-## ✅ TODOs
-
-| No | Task                                         | Status |
-|----|----------------------------------------------|--------|
-| 01 | Create `nvidia_qa` dataset                   | ✅     |
-| 02 | Evaluation and Fine-tune model               | ✅     |
-| 03 | Deploy model                                 | 🛠️     |
-| 04 | Generate synthetic context, options          | 🛠️     |
-| 05 | Create `nvidia_mcqa` dataset                 | ❌     |
+A platform dedicated to creating, managing, and evaluating question-and-answer datasets and models focused on NVIDIA technologies. 🚀
 
 ---
 
-## 📂 Datasets
+## 📋 Project Tasks and Status 
 
-- [locchh/Nvidia_AI_Infrastructure_and_Operations_Fundamentals_QA](https://huggingface.co/datasets/locchh/Nvidia_AI_Infrastructure_and_Operations_Fundamentals_QA)
-
-- [locchh/Nvidia_AI_Infrastructure_and_Operations_Fundamentals_MCQA](https://huggingface.co/datasets/locchh/Nvidia_AI_Infrastructure_and_Operations_Fundamentals_MCQA)
-
-- [nvidia_qa](https://huggingface.co/datasets/locchh/nvidia_qa): A dataset of questions and answers.
-
-- [nvidia_qa_ctx](): A question-and-answer dataset enriched with synthetic context.
-
-- [nvidia_mcqa](): A dataset of multiple-choice questions and answers.
-
-- [nvidia_mcqa_ctx](): A dataset of multiple-choice questions and answers, enriched with synthetic context.
+| Task No. | Description                                   | Status        |
+|----------|-----------------------------------------------|---------------|
+| 01       | Create the `nvidia_qa` dataset                | ✅ Completed  |
+| 02       | Evaluate and fine-tune the model              | ✅ Completed  |
+| 03       | Deploy the model                              | 🛠️ In Progress |
+| 04       | Generate synthetic context and answer options | 🛠️ In Progress |
+| 05       | Create the `nvidia_mcqa` dataset              | ❌ Not Started |
 
 ---
 
-## 📊 Evaluation
+## 📂 Datasets 
 
-- Evaluate on the `nvidia_qa` dataset: [Link](./assets/docs/evaluate_nvidia_qa.md)
+The following datasets are integral to the project:  
 
-- Evaluate on the `nvidia_mcqa` dataset: [Link]()
+- [Nvidia_AI_Infrastructure_and_Operations_Fundamentals_QA](https://huggingface.co/datasets/locchh/Nvidia_AI_Infrastructure_and_Operations_Fundamentals_QA):  
+  A question-and-answer dataset for the "NVIDIA AI Infrastructure and Operations Fundamentals" course. 🎓
+
+- [Nvidia_AI_Infrastructure_and_Operations_Fundamentals_MCQA](https://huggingface.co/datasets/locchh/Nvidia_AI_Infrastructure_and_Operations_Fundamentals_MCQA):  
+  A multiple-choice question dataset for the same course.
+
+- [nvidia_qa](https://huggingface.co/datasets/locchh/nvidia_qa):  
+  A curated dataset of questions and answers.
+
+- nvidia_qa_ctx:  
+  A question-and-answer dataset enriched with synthetic context. *(Link coming soon)*
+
+- nvidia_mcqa:  
+  A dataset featuring multiple-choice questions and answers. *(Link coming soon)*
+
+- nvidia_mcqa_ctx:  
+  A multiple-choice dataset enriched with synthetic context. *(Link coming soon)*
 
 ---
 
-## 📖 References
+## 📊 Evaluation 
 
-Here are some key datasets and resources that inspired and supported this project:
+- For evaluation on the `nvidia_qa` dataset, refer to the detailed guide: [Evaluation Documentation](./assets/docs/evaluate_nvidia_qa.md) 📖  
+- Evaluation documentation for the `nvidia_mcqa` dataset is under development. *(Link coming soon)* ⏳
 
-**Models**:
-- [Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct)
-- [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
-- [SmolLM 135M, 360M, 1.7B Instruct](https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966)
+---
 
-**Datasets**:  
-- [tatsu-lab Alpaca Dataset](https://huggingface.co/datasets/tatsu-lab/alpaca)  
-- [Rajpurkar's SQuAD Dataset](https://huggingface.co/datasets/rajpurkar/squad)  
-- [AllenAI's SWAG Dataset](https://huggingface.co/datasets/allenai/swag)  
-- [NVIDIA-QA by ajsbsd](https://huggingface.co/datasets/ajsbsd/nvidia-qa)  
-- [NVIDIA QA Formatted by arunima29](https://huggingface.co/datasets/arunima29/nvidia_qa_formatted)  
+## 📚 References and Resources 
 
-**Resources for Implementation**:  
-- [Multiple Choice with Transformers](https://huggingface.co/docs/transformers/tasks/multiple_choice)  
-- [LFQA (Long-Form Question Answering) Overview](https://yjernite.github.io/lfqa.html)  
+### Models  
+The following pre-trained models are instrumental in this project:  
 
-**Key Papers**:  
-- [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/pdf/1910.13461)  
-- [ELI5: Long Form Question Answering](https://arxiv.org/pdf/1907.09190)  
-- [How Much Knowledge Can You Pack Into the Parameters of a Language Model?](https://arxiv.org/pdf/2002.08910)  
-- [Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor](https://arxiv.org/pdf/2212.09689)
+- [Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) 🦙  
+- [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) 🦙  
+- [SmolLM (135M, 360M, 1.7B) Instruct](https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966) 🤖
 
-## 🔍 Insights
+### Datasets  
+The project references key datasets for inspiration and benchmarking:  
 
-- *Training a model involves optimizing it to perform better on a validation set by learning patterns, features, and relationships from the training set.*
+- [Alpaca Dataset (tatsu-lab)](https://huggingface.co/datasets/tatsu-lab/alpaca) 🦙  
+- [SQuAD Dataset (Rajpurkar)](https://huggingface.co/datasets/rajpurkar/squad) 📖  
+- [SWAG Dataset (AllenAI)](https://huggingface.co/datasets/allenai/swag) 🧠  
+- [NVIDIA-QA Dataset (ajsbsd)](https://huggingface.co/datasets/ajsbsd/nvidia-qa) 🖥️  
+- [Formatted NVIDIA QA Dataset (arunima29)](https://huggingface.co/datasets/arunima29/nvidia_qa_formatted) 📝  
 
+### Implementation Resources  
+The following resources were instrumental in implementing project components:  
 
-- *A significant challenge in specific-domain closed-book question answering tasks is that the answers rely on an external knowledge collection, yet the model is not provided any information about where the answers can be found within that collection.*
+- [Multiple Choice with Transformers](https://huggingface.co/docs/transformers/tasks/multiple_choice) 🔄  
+- [LFQA (Long-Form Question Answering) Overview](https://yjernite.github.io/lfqa.html) 📚
+
+### Key Research Papers  
+This project draws insights from several significant publications:  
+
+- [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/pdf/1910.13461) 📑  
+- [ELI5: Long Form Question Answering](https://arxiv.org/pdf/1907.09190) 📖  
+- [How Much Knowledge Can You Pack Into the Parameters of a Language Model?](https://arxiv.org/pdf/2002.08910) 🧠  
+- [Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor](https://arxiv.org/pdf/2212.09689) 🤖
+
+---
+
+## 🔍 Insights 
+
+- Training involves iterative optimization to improve the model’s performance on the validation set by learning patterns, features, and relationships in the training data. 🧠  
+
+- A notable challenge in specific-domain closed-book question answering is the reliance on external knowledge collections, where the model lacks explicit references to pinpoint answers. ❓
