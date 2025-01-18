@@ -30,12 +30,9 @@ A comprehensive platform for creating and managing question-and-answer datasets 
 
 ## 📊 Evaluation
 
-- Evaluate on the `nvidia_qa` dataset:
+- Evaluate on the `nvidia_qa` dataset: [Link](./assets/docs/evaluate_nvidia_qa.md)
 
-|No|Model|BERTScore|ROUGE-1|ROUGE-2|ROUGE-L|
-|---|---|---|---|---|---|
-|1|`HuggingFaceTB/SmolLM-135M-Instruct`|---|---|---|---|
-|2|`meta-llama/Llama-3.2-1B-Instruct`|---|---|---|---|
+- Evaluate on the `nvidia_mcqa` dataset: [Link]()
 
 ---
 
