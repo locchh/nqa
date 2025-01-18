@@ -9,9 +9,9 @@ A comprehensive platform for creating and managing question-and-answer datasets 
 | No | Task                                         | Status |
 |----|----------------------------------------------|--------|
 | 01 | Create `nvidia_qa` dataset                   | ✅     |
-| 02 | Evaluation and Fine-tune model               | 🛠️     |
-| 03 | Deploy model                                 | ❌     |
-| 04 | Generate synthetic context, options          | ❌     |
+| 02 | Evaluation and Fine-tune model               | ✅     |
+| 03 | Deploy model                                 | 🛠️     |
+| 04 | Generate synthetic context, options          | 🛠️     |
 | 05 | Create `nvidia_mcqa` dataset                 | ❌     |
 
 ---
@@ -66,3 +66,5 @@ Here are some key datasets and resources that inspired and supported this projec
 
 - *Training a model involves optimizing it to perform better on a validation set by learning patterns, features, and relationships from the training set.*
 
+
+- *A significant challenge in specific-domain closed-book question answering tasks is that the answers rely on an external knowledge collection, yet the model is not provided any information about where the answers can be found within that collection.*
