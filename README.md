@@ -1,4 +1,4 @@
-# 🧠 **NQA: NVIDIA-Related Question and Answer Platform**  
+# 🧠 **NQA: NVIDIA-Related Question and Answer Project**  
 
 A comprehensive platform for creating and managing question-and-answer datasets and models related to NVIDIA technologies.  
 
@@ -28,7 +28,7 @@ A comprehensive platform for creating and managing question-and-answer datasets 
   A dataset of multiple-choice questions and answers.
 
 - **[nvidia_mcqa_ctx]():**  
-  A dataset of multiple-choice questions and answers enriched with synthetic context.
+  A dataset of multiple-choice questions and answers, enriched with synthetic context.
 
 ---
 
