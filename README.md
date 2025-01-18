@@ -61,3 +61,8 @@ Here are some key datasets and resources that inspired and supported this projec
 - [ELI5: Long Form Question Answering](https://arxiv.org/pdf/1907.09190)  
 - [How Much Knowledge Can You Pack Into the Parameters of a Language Model?](https://arxiv.org/pdf/2002.08910)  
 - [Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor](https://arxiv.org/pdf/2212.09689)
+
+## 🔍 Insights
+
+- *Training a model involves optimizing it to perform better on a validation set by learning patterns, features, and relationships from the training set.*
+
