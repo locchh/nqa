@@ -18,6 +18,10 @@ A comprehensive platform for creating and managing question-and-answer datasets 
 
 ## 📂 Datasets
 
+- [locchh/Nvidia_AI_Infrastructure_and_Operations_Fundamentals_QA](https://huggingface.co/datasets/locchh/Nvidia_AI_Infrastructure_and_Operations_Fundamentals_QA)
+
+- [locchh/Nvidia_AI_Infrastructure_and_Operations_Fundamentals_MCQA](https://huggingface.co/datasets/locchh/Nvidia_AI_Infrastructure_and_Operations_Fundamentals_MCQA)
+
 - [nvidia_qa](https://huggingface.co/datasets/locchh/nvidia_qa): A dataset of questions and answers.
 
 - [nvidia_qa_ctx](): A question-and-answer dataset enriched with synthetic context.
