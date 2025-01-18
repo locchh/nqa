@@ -83,6 +83,6 @@ This project draws insights from several significant publications:
 
 ## 🔍 Insights 
 
-- Training involves iterative optimization to improve the model’s performance on the validation set by learning patterns, features, and relationships in the training data. 🧠  
+- *Training involves iterative optimization to improve the model’s performance on the validation set by learning patterns, features, and relationships in the training data.*  
 
-- A notable challenge in specific-domain closed-book question answering is the reliance on external knowledge collections, where the model lacks explicit references to pinpoint answers. ❓
+- *A notable challenge in specific-domain closed-book question answering is the reliance on external knowledge collections, where the model lacks explicit references to pinpoint answers.*
