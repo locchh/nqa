@@ -1,10 +1,10 @@
-# 🧠 **NQA: NVIDIA-Related Question and Answer Project**  
+# 🧠 NQA: NVIDIA-Related Question and Answer Project
 
 A comprehensive platform for creating and managing question-and-answer datasets and models related to NVIDIA technologies.  
 
 ---
 
-## ✅ **TODOs**
+## ✅ TODOs
 
 | No | Task                                         | Status |
 |----|----------------------------------------------|--------|
@@ -16,7 +16,7 @@ A comprehensive platform for creating and managing question-and-answer datasets 
 
 ---
 
-## 📂 **Datasets**
+## 📂 Datasets
 
 - [nvidia_qa](https://huggingface.co/datasets/locchh/nvidia_qa): A dataset of questions and answers.
 
@@ -28,14 +28,25 @@ A comprehensive platform for creating and managing question-and-answer datasets 
 
 ---
 
-## 📖 **References**
+## 📊 Evaluation
+
+- Evaluate on the `nvidia_qa` dataset:
+
+|No|Model|BERTScore|ROUGE-1|ROUGE-2|ROUGE-L|
+|---|---|---|---|---|---|
+|1|`HuggingFaceTB/SmolLM-135M-Instruct`|---|---|---|---|
+|2|`meta-llama/Llama-3.2-1B-Instruct`|---|---|---|---|
+
+---
+
+## 📖 References
 
 Here are some key datasets and resources that inspired and supported this project:
 
 **Models**:
 - [Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct)
 - [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
-- [SmolLM 135M, 360M, 1.7B](https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966)
+- [SmolLM 135M, 360M, 1.7B Instruct](https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966)
 
 **Datasets**:  
 - [tatsu-lab Alpaca Dataset](https://huggingface.co/datasets/tatsu-lab/alpaca)  
