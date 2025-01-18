@@ -6,13 +6,14 @@ A platform dedicated to creating, managing, and evaluating question-and-answer d
 
 ## 📋 Project Tasks and Status 
 
-| Task No. | Description                                   | Status        |
-|----------|-----------------------------------------------|---------------|
-| 01       | Create the `nvidia_qa` dataset                | ✅ Completed  |
-| 02       | Evaluate and fine-tune the model              | ✅ Completed  |
-| 03       | Deploy the model                              | 🛠️ In Progress |
-| 04       | Generate synthetic context and answer options | 🛠️ In Progress |
-| 05       | Create the `nvidia_mcqa` dataset              | ❌ Not Started |
+| Task No. | Description                                                                 | Status        |
+|----------|-----------------------------------------------------------------------------|---------------|
+| 01       | Create the `nvidia_qa` dataset                                                | ✅ Completed  |
+| 02       | Evaluate and fine-tune the model on the `nvidia_qa` dataset                   | ✅ Completed  |
+| 03       | Develop an MCQA application to enhance knowledge of the "NVIDIA AI Infrastructure and Operations Fundamentals" course. | 🛠️ In Progress |
+| 04       | Implement multiple-choice question and answer task                          | 🛠️ In Progress |
+| 05       | Generate synthetic context and answer options                               | 🛠️ In Progress |
+| 06       | Create the `nvidia_mcqa` dataset                                            | ❌ Not Started |
 
 ---
 
