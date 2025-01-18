@@ -6,10 +6,10 @@ A comprehensive platform for creating and managing question-and-answer datasets 
 
 ## ✅ **TODOs**
 
-| No | Task                                          | Status |
+| No | Task                                         | Status |
 |----|----------------------------------------------|--------|
 | 01 | Create `nvidia_qa` dataset                   | ✅     |
-| 02 | Fine-tune model + evaluation                 | 🛠️     |
+| 02 | Evaluate and Fine-tune model                 | 🛠️     |
 | 03 | Deploy model                                 | ❌     |
 | 04 | Generate synthetic context, options          | ❌     |
 | 05 | Create `nvidia_mcqa` dataset                 | ❌     |
@@ -36,19 +36,24 @@ A comprehensive platform for creating and managing question-and-answer datasets 
 
 Here are some key datasets and resources that inspired and supported this project:
 
-- **Datasets**:  
-  - [tatsu-lab Alpaca Dataset](https://huggingface.co/datasets/tatsu-lab/alpaca)  
-  - [Rajpurkar's SQuAD Dataset](https://huggingface.co/datasets/rajpurkar/squad)  
-  - [AllenAI's SWAG Dataset](https://huggingface.co/datasets/allenai/swag)  
-  - [NVIDIA-QA by ajsbsd](https://huggingface.co/datasets/ajsbsd/nvidia-qa)  
-  - [NVIDIA QA Formatted by arunima29](https://huggingface.co/datasets/arunima29/nvidia_qa_formatted)  
+**Models**:
+- [Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct)
+- [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
+- [SmolLM 135M, 360M, 1.7B](https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966)
 
-- **Resources for Implementation**:  
-  - [Multiple Choice with Transformers](https://huggingface.co/docs/transformers/tasks/multiple_choice)  
-  - [LFQA (Long-Form Question Answering) Overview](https://yjernite.github.io/lfqa.html)  
+**Datasets**:  
+- [tatsu-lab Alpaca Dataset](https://huggingface.co/datasets/tatsu-lab/alpaca)  
+- [Rajpurkar's SQuAD Dataset](https://huggingface.co/datasets/rajpurkar/squad)  
+- [AllenAI's SWAG Dataset](https://huggingface.co/datasets/allenai/swag)  
+- [NVIDIA-QA by ajsbsd](https://huggingface.co/datasets/ajsbsd/nvidia-qa)  
+- [NVIDIA QA Formatted by arunima29](https://huggingface.co/datasets/arunima29/nvidia_qa_formatted)  
 
-- **Key Papers**:  
-  - [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/pdf/1910.13461)  
-  - [ELI5: Long Form Question Answering](https://arxiv.org/pdf/1907.09190)  
-  - [How Much Knowledge Can You Pack Into the Parameters of a Language Model?](https://arxiv.org/pdf/2002.08910)  
-  - [Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor](https://arxiv.org/pdf/2212.09689)
+**Resources for Implementation**:  
+- [Multiple Choice with Transformers](https://huggingface.co/docs/transformers/tasks/multiple_choice)  
+- [LFQA (Long-Form Question Answering) Overview](https://yjernite.github.io/lfqa.html)  
+
+**Key Papers**:  
+- [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/pdf/1910.13461)  
+- [ELI5: Long Form Question Answering](https://arxiv.org/pdf/1907.09190)  
+- [How Much Knowledge Can You Pack Into the Parameters of a Language Model?](https://arxiv.org/pdf/2002.08910)  
+- [Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor](https://arxiv.org/pdf/2212.09689)
