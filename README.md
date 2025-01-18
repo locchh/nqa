@@ -9,7 +9,7 @@ A comprehensive platform for creating and managing question-and-answer datasets 
 | No | Task                                         | Status |
 |----|----------------------------------------------|--------|
 | 01 | Create `nvidia_qa` dataset                   | ✅     |
-| 02 | Evaluate and Fine-tune model                 | 🛠️     |
+| 02 | Evaluation and Fine-tune model               | 🛠️     |
 | 03 | Deploy model                                 | ❌     |
 | 04 | Generate synthetic context, options          | ❌     |
 | 05 | Create `nvidia_mcqa` dataset                 | ❌     |
