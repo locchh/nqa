@@ -10,6 +10,8 @@ with open("./assets/data.json","r") as f:
 # Shuffle the dataset for random question order
 random.shuffle(data)
 
+# Select 5 questions
+data = data[:5]
 
 class QnAApp:
     def __init__(self):
