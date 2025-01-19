@@ -1,19 +1,18 @@
+import json
 import random
 import pytermgui as ptg
 
 
-# Sample dataset
-data = [
-    {"question": "What is the capital of France?", "answer": "A", "A": "Paris", "B": "Berlin", "C": "Madrid", "D": "Rome"},
-    {"question": "What is 2 + 2?", "answer": "C", "A": "3", "B": "5", "C": "4", "D": "6"},
-    {"question": "What is the color of the sky?", "answer": "B", "A": "Green", "B": "Blue", "C": "Red", "D": "Yellow"},
-]
+# Load dataset
+with open("./assets/data.json", "r") as f:
+    data = json.load(f)
 
 # Shuffle the dataset for random question order
 random.shuffle(data)
 
 
 class QnAApp:
+    
     def __init__(self):
         self.index = 0
         self.score = 0
@@ -31,11 +30,22 @@ class QnAApp:
             return
 
         question_data = data[self.index]
+
+        # Prepare the options with text wrapping
+        option_buttons = [
+            ptg.Button(f"{option}: {question_data[option]}", lambda _, opt=option: self.check_answer(opt))
+            for option in ["A", "B", "C", "D"]
+        ]
+
+        # Define width and wrap the question text with ptg.Label
+        wrapped_question = ptg.Label(f"[bold]{question_data['question']}[/bold]", width=100)
+        
         self.main_window = ptg.Window(
-            ptg.Label(f"[bold]{question_data['question']}[/bold]"),
-            *[ptg.Button(f"{option}: {question_data[option]}", lambda _, opt=option: self.check_answer(opt)) for option in ["A", "B", "C", "D"]],
+            wrapped_question,
+            *option_buttons,
             box=ptg.widgets.boxes.SINGLE,
             title="Quiz Question",
+            width=100,  # Adjust the width to accommodate wrapped text
         )
 
         self.manager.add(self.main_window)
