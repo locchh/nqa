@@ -29,10 +29,10 @@ class QnAApp:
         random.shuffle(data)
         return data[:TOTAL_QUESTIONS]
 
-    def format_question(self, question):
-        """Split long questions into multiple lines for better readability."""
+    def format_text(self, text):
+        """Split long text into multiple lines for better readability."""
         max_line_length = 60
-        words = question.split()
+        words = text.split()
         lines = []
         current_line = []
 
@@ -56,7 +56,7 @@ class QnAApp:
             return
 
         question_data = self.questions[self.index]
-        formatted_question = self.format_question(question_data["question"])
+        formatted_question = self.format_text(question_data["question"])
 
         self.main_window = ptg.Window(
             ptg.Label(f"[bold]{formatted_question}[/bold]"),
