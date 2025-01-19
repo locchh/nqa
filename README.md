@@ -1,6 +1,12 @@
 # NQA: NVIDIA-Related Question and Answer Project 🧠
 
-A platform dedicated to creating, managing, and evaluating question-and-answer datasets and models focused on NVIDIA technologies. 🚀
+An application to assess your knowledge, focusing on NVIDIA technologies. 🚀
+
+<p align="center">
+  <img src="assets/media/img.gif" alt="img">
+</p>
+
+To run the application: `pip install -r requirements.txt && python qna_app.py`
 
 ---
 

@@ -4,15 +4,16 @@ import pytermgui as ptg
 
 
 # Constants
-TOTAL_QUESTIONS = 5
+TOTAL_QUESTIONS = 5 # 50
 DATASET_PATH = "./assets/data.json"
 DEFAULT_WINDOW_WIDTH = 80
 WINDOW_HEIGHT = 5
 WINDOW_PADDING = (2, 2)
 
-
 class QnAApp:
+    
     def __init__(self):
+
         self.index = 0
         self.score = 0
         self.manager = ptg.WindowManager()
