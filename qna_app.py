@@ -4,7 +4,7 @@ import pytermgui as ptg
 
 
 # Load dataset
-with open("./assets/data.json","r") as f:
+with open("./assets/data.json", "r") as f:
     data = json.load(f)
 
 # Shuffle the dataset for random question order
@@ -33,11 +33,13 @@ class QnAApp:
 
         question_data = data[self.index]
         
+        # Increase font size and window padding
         self.main_window = ptg.Window(
-            ptg.Label(f"[bold]{question_data['question']}[/bold]"),
+            ptg.Label(f"[bold]{question_data['question']}[/bold]", width=80),  # Increased width
             *[ptg.Button(f"{option}: {question_data[option]}", lambda _, opt=option: self.check_answer(opt)) for option in ["A", "B", "C", "D"]],
             box=ptg.widgets.boxes.SINGLE,
             title="Quiz Question",
+            padding=(4, 4),  # Increased padding
         )
 
         self.manager.add(self.main_window)
@@ -56,11 +58,13 @@ class QnAApp:
         if self.feedback_window:
             self.manager.remove(self.feedback_window)
 
+        # Increased width and padding for better readability
         self.feedback_window = ptg.Window(
-            ptg.Label(feedback),
+            ptg.Label(feedback, width=80),  # Increased width
             ptg.Button("Next", lambda *_: self.next_question()),  # Use lambda to avoid extra args
             box=ptg.widgets.boxes.SINGLE,
             title="Feedback",
+            padding=(4, 4),  # Increased padding
         )
 
         self.manager.add(self.feedback_window)
@@ -73,10 +77,11 @@ class QnAApp:
 
     def show_summary(self):
         self.main_window = ptg.Window(
-            ptg.Label(f"[bold]Quiz Completed! Your score: {self.score}/{len(data)}[/bold]"),
+            ptg.Label(f"[bold]Quiz Completed! Your score: {self.score}/{len(data)}[/bold]", width=80),  # Increased width
             ptg.Button("Exit", lambda *_: self.manager.stop()),  # Use lambda to avoid extra args
             box=ptg.widgets.boxes.SINGLE,
             title="Summary",
+            padding=(4, 4),  # Increased padding
         )
         self.manager.add(self.main_window)
 
