@@ -58,20 +58,22 @@ class QnAApp:
         question_data = self.questions[self.index]
         formatted_question = self.format_text(question_data["question"])
 
-        self.main_window = ptg.Window(
-            ptg.Label(f"[bold]{formatted_question}[/bold]"),
-            *[
+        buttons = [
                 ptg.Button(
                     f"{option}: {question_data[option]}",
                     lambda _, opt=option: self.check_answer(opt),
                 )
                 for option in ["A", "B", "C", "D"]
-            ],
-            box=ptg.widgets.boxes.SINGLE,
-            title="Quiz Question",
-            padding=WINDOW_PADDING,
-            width=DEFAULT_WINDOW_WIDTH,
-            height=WINDOW_HEIGHT
+            ]
+
+        self.main_window = ptg.Window(
+        ptg.Label(f"[bold]{formatted_question}[/bold]"),
+        *buttons,
+        box=ptg.widgets.boxes.SINGLE,
+        title="Quiz Question",
+        padding=WINDOW_PADDING,
+        width=DEFAULT_WINDOW_WIDTH,
+        height=WINDOW_HEIGHT,
         )
 
         self.manager.add(self.main_window)
