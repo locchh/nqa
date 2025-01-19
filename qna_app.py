@@ -14,6 +14,7 @@ random.shuffle(data)
 data = data[:5]
 
 class QnAApp:
+
     def __init__(self):
         self.index = 0
         self.score = 0
@@ -31,6 +32,7 @@ class QnAApp:
             return
 
         question_data = data[self.index]
+        
         self.main_window = ptg.Window(
             ptg.Label(f"[bold]{question_data['question']}[/bold]"),
             *[ptg.Button(f"{option}: {question_data[option]}", lambda _, opt=option: self.check_answer(opt)) for option in ["A", "B", "C", "D"]],
