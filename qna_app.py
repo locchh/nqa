@@ -35,7 +35,7 @@ class QnAApp:
         
         # Increase font size and window padding
         self.main_window = ptg.Window(
-            ptg.Label(f"[bold]{question_data['question']}[/bold]", width=80),  # Increased width
+            ptg.Label(f"[bold]{question_data['question']}[/bold]", width=80, height=5),  # Increased width
             *[ptg.Button(f"{option}: {question_data[option]}", lambda _, opt=option: self.check_answer(opt)) for option in ["A", "B", "C", "D"]],
             box=ptg.widgets.boxes.SINGLE,
             title="Quiz Question",
