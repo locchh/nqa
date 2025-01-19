@@ -6,13 +6,12 @@ import pytermgui as ptg
 # Constants
 TOTAL_QUESTIONS = 5
 DATASET_PATH = "./assets/data.json"
-WINDOW_WIDTH = 80
+DEFAULT_WINDOW_WIDTH = 80
 WINDOW_HEIGHT = 5
-WINDOW_PADDING = (4, 4)
+WINDOW_PADDING = (2, 2)
 
 
 class QnAApp:
-
     def __init__(self):
         self.index = 0
         self.score = 0
@@ -30,6 +29,23 @@ class QnAApp:
         random.shuffle(data)
         return data[:TOTAL_QUESTIONS]
 
+    def format_question(self, question):
+        """Split long questions into multiple lines for better readability."""
+        max_line_length = 60
+        words = question.split()
+        lines = []
+        current_line = []
+
+        for word in words:
+            if sum(len(w) for w in current_line) + len(current_line) + len(word) <= max_line_length:
+                current_line.append(word)
+            else:
+                lines.append(" ".join(current_line))
+                current_line = [word]
+        lines.append(" ".join(current_line))
+
+        return "\n".join(lines)
+
     def load_question(self):
         """Load and display the current question."""
         if self.main_window:
@@ -40,9 +56,10 @@ class QnAApp:
             return
 
         question_data = self.questions[self.index]
+        formatted_question = self.format_question(question_data["question"])
 
         self.main_window = ptg.Window(
-            ptg.Label(f"[bold]{question_data['question']}[/bold]", width=WINDOW_WIDTH, height=WINDOW_HEIGHT),
+            ptg.Label(f"[bold]{formatted_question}[/bold]"),
             *[
                 ptg.Button(
                     f"{option}: {question_data[option]}",
@@ -53,6 +70,8 @@ class QnAApp:
             box=ptg.widgets.boxes.SINGLE,
             title="Quiz Question",
             padding=WINDOW_PADDING,
+            width=DEFAULT_WINDOW_WIDTH,
+            height=WINDOW_HEIGHT
         )
 
         self.manager.add(self.main_window)
@@ -73,11 +92,12 @@ class QnAApp:
             self.manager.remove(self.feedback_window)
 
         self.feedback_window = ptg.Window(
-            ptg.Label(feedback, width=WINDOW_WIDTH),
-            ptg.Button("Next", lambda _: self.next_question()),  # Fixed to accept the argument
+            ptg.Label(feedback),
+            ptg.Button("Next", lambda _: self.next_question()),
             box=ptg.widgets.boxes.SINGLE,
             title="Feedback",
             padding=WINDOW_PADDING,
+            width=DEFAULT_WINDOW_WIDTH,
         )
 
         self.manager.add(self.feedback_window)
@@ -93,11 +113,12 @@ class QnAApp:
     def show_summary(self):
         """Display the quiz summary with the final score."""
         self.main_window = ptg.Window(
-            ptg.Label(f"[bold]Quiz Completed! Your score: {self.score}/{len(self.questions)}[/bold]", width=WINDOW_WIDTH),
-            ptg.Button("Exit", lambda _: self.manager.stop()),  # Fixed to accept the argument
+            ptg.Label(f"[bold]Quiz Completed! Your score: {self.score}/{len(self.questions)}[/bold]"),
+            ptg.Button("Exit", lambda _: self.manager.stop()),
             box=ptg.widgets.boxes.SINGLE,
             title="Summary",
             padding=WINDOW_PADDING,
+            width=DEFAULT_WINDOW_WIDTH,
         )
         self.manager.add(self.main_window)
 
