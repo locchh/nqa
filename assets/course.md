@@ -1,11 +1,11 @@
 ## Table of contents
 
-- [Lesson1: AI Transformation Across Industries](), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_1_AI_Transformation_Across_Industries.md)
-- [Lesson2: Introduction to Artificial Intelligence](), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_2_Introduction%20to%20Artificial%20Intelligence.md)
-- [Lesson3: Generative AI Overview](), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_3_Generative%20AI%20Overview.md)
-- [Lesson4: Accelerating AI with GPUs](), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_4_Accelerating%20AI%20with%20GPUs.md)
-- [Lesson5: AI Software Ecosystems](), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_5_AI%20Software%20Ecosystems.md)
-- [Lesson6: Data Center and Cloud Computing](), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_6_Data%20Center%20and%20Cloud%20Computing.md)
+- [Lesson1: AI Transformation Across Industries](https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals/lecture/iXgwH/ai-transformation-across-industries), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_1_AI_Transformation_Across_Industries.md)
+- [Lesson2: Introduction to Artificial Intelligence](https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals/lecture/ZeO0s/introduction-to-artificial-intelligence), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_2_Introduction%20to%20Artificial%20Intelligence.md)
+- [Lesson3: Generative AI Overview](https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals/lecture/j2Lfx/generative-ai-overview), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_3_Generative%20AI%20Overview.md)
+- [Lesson4: Accelerating AI with GPUs](https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals/lecture/LOGoS/accelerating-ai-with-gpus), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_4_Accelerating%20AI%20with%20GPUs.md)
+- [Lesson5: AI Software Ecosystems](https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals/lecture/qW9tH/ai-software-ecosystems), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_5_AI%20Software%20Ecosystems.md)
+- [Lesson6: Data Center and Cloud Computing](https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals/lecture/RPDm7/data-center-and-cloud-computing), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_6_Data%20Center%20and%20Cloud%20Computing.md)
 - [](), Exam: [Link]()
 - [](), Exam: [Link]()
 - [](), Exam: [Link]()
