@@ -22,3 +22,11 @@
 - [Lesson 12.6: NVIDIA Solutions in the Cloud](https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals/lecture/5MOiE/nvidia-solutions-in-the-cloud), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_12.6_NVIDIA%20Solutions%20in%20the%20Cloud.md)
 - [Lesson 13: AI Data Center Management and Monitoring](https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals/lecture/sFdrz/ai-data-center-management-and-monitoring), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_13_AI%20Data%20Center%20Management%20and%20Monitoring.md)
 - [Lesson 14: Orchestration, MLOps, and Job Scheduling](https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals/lecture/yK07Q/orchestrationm-mlops-and-job-scheduling), Exam: [Link](https://github.com/locchh/nqa/blob/main/assets/exams/Lesson_14_Orchestrationm%2C%20MLOps%2C%20and%20Job%20Scheduling.md)
+
+https://www.nvidia.com/en-us/learn/certification/
+
+https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/
+
+https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-professional/
+
+https://www.nvidia.com/en-us/learn/certification/generative-ai-llm-associate/
